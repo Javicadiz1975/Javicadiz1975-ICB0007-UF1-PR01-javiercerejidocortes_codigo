@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etRocketName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:enabled="false"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/etRocketType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo" />
+
+        <EditText
+            android:id="@+id/etRocketActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="¿Activo? (true/false)" />
+
+        <EditText
+            android:id="@+id/etRocketCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Coste por lanzamiento" />
+
+        <EditText
+            android:id="@+id/etRocketSuccessRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tasa de éxito (%)" />
+
+        <EditText
+            android:id="@+id/etRocketCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="País" />
+
+        <EditText
+            android:id="@+id/etRocketCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Empresa" />
+
+        <EditText
+            android:id="@+id/etRocketWikipedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wikipedia" />
+
+        <EditText
+            android:id="@+id/etRocketDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción" />
+
+        <Button
+            android:id="@+id/btnSaveRocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cambios"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnCancelRocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>

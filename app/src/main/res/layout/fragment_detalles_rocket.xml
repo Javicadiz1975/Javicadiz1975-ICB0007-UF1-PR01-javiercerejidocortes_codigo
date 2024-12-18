@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <!-- Nombre del Cohete -->
+    <TextView
+        android:id="@+id/tvRocketName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Cohete"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Wikipedia Link -->
+    <TextView
+        android:id="@+id/tvRocketWikipedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wikipedia: Enlace disponible"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- País -->
+    <TextView
+        android:id="@+id/tvRocketCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="País: Desconocido"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tipo -->
+    <TextView
+        android:id="@+id/tvRocketType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo: "
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Activo -->
+    <TextView
+        android:id="@+id/tvRocketActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activo: "
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Costo por lanzamiento -->
+    <TextView
+        android:id="@+id/tvRocketCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Costo por lanzamiento: "
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tasa de éxito -->
+    <TextView
+        android:id="@+id/tvRocketSuccessRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasa de éxito: "
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Empresa -->
+    <TextView
+        android:id="@+id/tvRocketCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empresa: "
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Descripción -->
+    <TextView
+        android:id="@+id/tvRocketDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción: "
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón Editar -->
+    <Button
+        android:id="@+id/btnEditRocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Cohete"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Botón Eliminar -->
+    <Button
+        android:id="@+id/btnDeleteRocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Cohete"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:enabled="true" />
+
+</LinearLayout>
+

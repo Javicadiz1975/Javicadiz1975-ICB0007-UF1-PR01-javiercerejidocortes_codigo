@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Opción para añadir un cohete -->
+    <item
+        android:id="@+id/action_add"
+        android:title="Añadir Cohete"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always" />
+
+    <!-- Opción para cerrar sesión -->
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never" />
+
+    <!-- SearchView para búsqueda -->
+    <item
+        android:id="@+id/action_search"
+        android:title="Buscar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+</menu>
